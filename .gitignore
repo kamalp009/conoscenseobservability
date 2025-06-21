@@ -7,7 +7,6 @@ frontend/.pnp
 frontend/i18n-translations-hash.json
 *.pnp.js
 frontend_latest.zip
-frontend_bkp
 # testing
 frontend/coverage
 
