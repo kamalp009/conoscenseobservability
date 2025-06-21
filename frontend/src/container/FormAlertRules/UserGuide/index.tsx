@@ -102,7 +102,7 @@ function UserGuide({ queryType }: UserGuideProps): JSX.Element {
 							<a
 								key={1}
 								target="_blank"
-								href=" https://signoz.io/docs/tutorial/writing-clickhouse-queries-in-dashboard/?utm_source=frontend&utm_medium=product&utm_id=alerts</>"
+								href=" https://conoscense.io/docs/tutorial/writing-clickhouse-queries-in-dashboard/?utm_source=frontend&utm_medium=product&utm_id=alerts</>"
 							/>,
 						]}
 					/>
@@ -147,7 +147,7 @@ function UserGuide({ queryType }: UserGuideProps): JSX.Element {
 				<Col flex="none">
 					<TextToolTip
 						text={t('user_tooltip_more_help')}
-						url="https://signoz.io/docs/userguide/alerts-management/?utm_source=product&utm_medium=create-alert#creating-a-new-alert-in-signoz"
+						url="https://conoscense.io/docs/userguide/alerts-management/?utm_source=product&utm_medium=create-alert#creating-a-new-alert-in-conoscense"
 					/>
 				</Col>
 			</Row>

@@ -334,10 +334,10 @@ export default function Home(): JSX.Element {
 				{showBanner && (
 					<div className="home-container-banner">
 						<div className="home-container-banner-content">
-							Big News: SigNoz Community Edition now available with SSO (Google OAuth)
+							Big News: conoscense Community Edition now available with SSO (Google OAuth)
 							and API keys -
 							<a
-								href="https://signoz.io/blog/open-source-signoz-now-available-with-sso-and-api-keys/"
+								href="https://conoscense.io/blog/open-source-conoscense-now-available-with-sso-and-api-keys/"
 								target="_blank"
 								rel="noreferrer"
 								className="home-container-banner-link"
@@ -709,7 +709,7 @@ export default function Home(): JSX.Element {
 											other special characters with underscores (_). This restriction will
 											soon be removed. Learn more{' '}
 											<a
-												href="https://signoz.io/guides/metrics-migration-cloud-users"
+												href="https://conoscense.io/guides/metrics-migration-cloud-users"
 												target="_blank"
 												rel="noopener noreferrer"
 											>

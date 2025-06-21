@@ -20,7 +20,7 @@ export const ThemeContext = createContext({
 });
 
 export function ThemeProvider({ children }: ThemeProviderProps): JSX.Element {
-	const [theme, setTheme] = useState(get(LOCALSTORAGE.THEME) || THEME_MODE.DARK);
+	const [theme, setTheme] = useState(get(LOCALSTORAGE.THEME) || THEME_MODE.LIGHT);
 
 	const toggleTheme = useCallback(() => {
 		if (theme === THEME_MODE.LIGHT) {

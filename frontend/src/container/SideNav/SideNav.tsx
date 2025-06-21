@@ -84,7 +84,7 @@ function SideNav(): JSX.Element {
 	>([]);
 
 	const onClickSlackHandler = (): void => {
-		window.open('https://signoz.io/slack', '_blank');
+		window.open('https://Conoscense.io/slack', '_blank');
 	};
 
 	const isLatestVersion = checkVersionState(currentVersion, latestVersion);
@@ -110,7 +110,7 @@ function SideNav(): JSX.Element {
 
 	const onClickSignozCloud = (): void => {
 		window.open(
-			'https://signoz.io/oss-to-cloud/?utm_source=product_navbar&utm_medium=frontend&utm_campaign=oss_users',
+			'https://Conoscense.io/oss-to-cloud/?utm_source=product_navbar&utm_medium=frontend&utm_campaign=oss_users',
 			'_blank',
 		);
 	};
@@ -373,7 +373,7 @@ function SideNav(): JSX.Element {
 						>
 							<img src="/Logos/signoz-brand-logo.svg" alt="SigNoz" />
 
-							<span className="brand-logo-name nav-item-label"> SigNoz </span>
+							<span className="brand-logo-name nav-item-label"> Conoscense </span>
 						</div>
 
 						{licenseTag && (
@@ -381,7 +381,7 @@ function SideNav(): JSX.Element {
 								title={
 									// eslint-disable-next-line no-nested-ternary
 									isCommunityUser
-										? 'You are running the community version of SigNoz. You have to install the Enterprise edition in order enable Enterprise features.'
+										? 'You are running the community version of Conoscense. You have to install the Enterprise edition in order enable Enterprise features.'
 										: isCommunityEnterpriseUser
 										? 'You do not have an active license present. Add an active license to enable Enterprise features.'
 										: ''
@@ -448,7 +448,7 @@ function SideNav(): JSX.Element {
 							onClick={onClickShortcuts}
 						/>
 
-						{!isLicenseActive && (
+						{/* {!isLicenseActive && (
 							<NavItem
 								key="trySignozCloud"
 								item={trySignozCloudMenuItem}
@@ -456,9 +456,9 @@ function SideNav(): JSX.Element {
 								isDisabled={isWorkspaceBlocked}
 								onClick={onClickSignozCloud}
 							/>
-						)}
+						)} */}
 
-						{userManagementMenuItems.map(
+						{/* {userManagementMenuItems.map(
 							(item, index): JSX.Element => (
 								<NavItem
 									key={item?.key || index}
@@ -474,7 +474,7 @@ function SideNav(): JSX.Element {
 									}}
 								/>
 							),
-						)}
+						)} */}
 
 						{inviteMembers && (
 							<NavItem

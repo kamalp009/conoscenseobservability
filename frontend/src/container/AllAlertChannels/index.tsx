@@ -65,7 +65,7 @@ function AlertChannels(): JSX.Element {
 				<RightActionContainer>
 					<TextToolTip
 						text={t('tooltip_notification_channels')}
-						url="https://signoz.io/docs/userguide/alerts-management/#setting-notification-channel"
+						url="https://conoscense.io/docs/userguide/alerts-management/#setting-notification-channel"
 					/>
 
 					<Tooltip

@@ -100,7 +100,7 @@ export default function AlertRules({
 								});
 
 								window.open(
-									'https://signoz.io/docs/alerts/',
+									'https://conoscense.io/docs/alerts/',
 									'_blank',
 									'noreferrer noopener',
 								);

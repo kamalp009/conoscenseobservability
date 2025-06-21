@@ -13,12 +13,12 @@ export function ComingSoon(): JSX.Element {
 				<div>
 					Join our Slack community for more details:{' '}
 					<a
-						href="https://signoz.io/slack"
+						href="https://conoscense.io/slack"
 						rel="noopener noreferrer"
 						target="_blank"
 						onClick={(e): void => e.stopPropagation()}
 					>
-						SigNoz Community
+						conoscense Community
 					</a>
 				</div>
 			}

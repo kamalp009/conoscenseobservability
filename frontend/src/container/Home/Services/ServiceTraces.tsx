@@ -148,7 +148,7 @@ export default function ServiceTraces({
 										source: 'Service Traces',
 									});
 									window.open(
-										'https://signoz.io/docs/instrumentation/overview/',
+										'https://conoscense.io/docs/instrumentation/overview/',
 										'_blank',
 									);
 								}}

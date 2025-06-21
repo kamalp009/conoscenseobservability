@@ -20,12 +20,7 @@ function WelcomeLeftContainer({
 					<Title style={{ fontSize: '46px', margin: 0 }}>Conoscense</Title>
 				</Space>
 				<Typography>{t('monitor_signup')}</Typography>
-				<Card
-					style={{ width: 'max-content' }}
-					bodyStyle={{ padding: '1px 8px', width: '100%' }}
-				>
-					Conoscense
-				</Card>
+				
 			</LeftContainer>
 			{children}
 		</Container>

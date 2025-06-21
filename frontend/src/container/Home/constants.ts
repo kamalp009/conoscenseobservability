@@ -15,15 +15,15 @@ export const checkListStepToPreferenceKeyMap = {
 };
 
 export const DOCS_LINKS = {
-	ADD_DATA_SOURCE: 'https://signoz.io/docs/instrumentation/overview/',
-	SEND_LOGS: 'https://signoz.io/docs/userguide/logs/',
-	SEND_TRACES: 'https://signoz.io/docs/userguide/traces/',
+	ADD_DATA_SOURCE: 'https://conoscense.io/docs/instrumentation/overview/',
+	SEND_LOGS: 'https://conoscense.io/docs/userguide/logs/',
+	SEND_TRACES: 'https://conoscense.io/docs/userguide/traces/',
 	SEND_INFRA_METRICS:
-		'https://signoz.io/docs/infrastructure-monitoring/overview/',
-	SETUP_ALERTS: 'https://signoz.io/docs/userguide/alerts-management/',
+		'https://conoscense.io/docs/infrastructure-monitoring/overview/',
+	SETUP_ALERTS: 'https://conoscense.io/docs/userguide/alerts-management/',
 	SETUP_SAVED_VIEWS:
-		'https://signoz.io/docs/product-features/saved-view/#step-2-save-your-view',
-	SETUP_DASHBOARDS: 'https://signoz.io/docs/userguide/manage-dashboards/',
+		'https://conoscense.io/docs/product-features/saved-view/#step-2-save-your-view',
+	SETUP_DASHBOARDS: 'https://conoscense.io/docs/userguide/manage-dashboards/',
 };
 
 export const defaultChecklistItemsState: ChecklistItem[] = [
@@ -51,7 +51,7 @@ export const defaultChecklistItemsState: ChecklistItem[] = [
 		id: 'SEND_LOGS',
 		title: 'Send your logs',
 		description:
-			'Send your logs to SigNoz to get more visibility into how your resources interact.',
+			'Send your logs to conoscense to get more visibility into how your resources interact.',
 		completed: false,
 		isSkipped: false,
 		isSkippable: true,
@@ -63,7 +63,7 @@ export const defaultChecklistItemsState: ChecklistItem[] = [
 		id: 'SEND_TRACES',
 		title: 'Send your traces',
 		description:
-			'Send your traces to SigNoz to get more visibility into how your resources interact.',
+			'Send your traces to conoscense to get more visibility into how your resources interact.',
 		completed: false,
 		isSkipped: false,
 		isSkippable: true,
@@ -75,7 +75,7 @@ export const defaultChecklistItemsState: ChecklistItem[] = [
 		id: 'SEND_INFRA_METRICS',
 		title: 'Send your infra metrics',
 		description:
-			'Send your infra metrics to SigNoz to get more visibility into your infrastructure.',
+			'Send your infra metrics to conoscense to get more visibility into your infrastructure.',
 		completed: false,
 		isSkipped: false,
 		isSkippable: true,
