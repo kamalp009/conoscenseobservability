@@ -231,5 +231,4 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/python
 frontend_latest.zip
 frontend_bkp/.temp_cache/
-frontend_bkp/
 *.zip
