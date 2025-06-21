@@ -87,7 +87,7 @@ function WorkspaceSuspended(): JSX.Element {
 								type="default"
 								shape="round"
 								size="middle"
-								href="mailto:cloud-support@Conoscense.io"
+								href="mailto:cloud-support@signoz.io"
 								role="button"
 							>
 								Contact Us

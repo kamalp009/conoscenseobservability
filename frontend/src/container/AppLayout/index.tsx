@@ -526,18 +526,18 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 		<div className="workspace-restricted-banner">
 			{activeLicense?.state === LicenseState.TERMINATED && (
 				<>
-					Your Conoscense license is terminated, enterprise features have been disabled.
+					Your SigNoz license is terminated, enterprise features have been disabled.
 					Please contact support at{' '}
-					<a href="mailto:support@Conoscense.io">support@Conoscense.io</a> for new license
+					<a href="mailto:support@signoz.io">support@signoz.io</a> for new license
 				</>
 			)}
 			{activeLicense?.state === LicenseState.EXPIRED && (
 				<>
-					Your Conoscense license has expired. Please contact support at{' '}
-					<a href="mailto:support@Conoscense.io">support@Conoscense.io</a> for renewal to
+					Your SigNoz license has expired. Please contact support at{' '}
+					<a href="mailto:support@signoz.io">support@signoz.io</a> for renewal to
 					avoid termination of license as per our{' '}
 					<a
-						href="https://Conoscense.io/terms-of-service"
+						href="https://signoz.io/terms-of-service"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -547,11 +547,11 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 			)}
 			{activeLicense?.state === LicenseState.CANCELLED && (
 				<>
-					Your Conoscense license is cancelled. Please contact support at{' '}
-					<a href="mailto:support@Conoscense.io">support@Conoscense.io</a> for reactivation
+					Your SigNoz license is cancelled. Please contact support at{' '}
+					<a href="mailto:support@signoz.io">support@signoz.io</a> for reactivation
 					to avoid termination of license as per our{' '}
 					<a
-						href="https://Conoscense.io/terms-of-service"
+						href="https://signoz.io/terms-of-service"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -562,12 +562,12 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 
 			{activeLicense?.state === LicenseState.DEFAULTED && (
 				<>
-					Your Conoscense license is defaulted. Please clear the bill to continue using
+					Your SigNoz license is defaulted. Please clear the bill to continue using
 					the enterprise features. Contact support at{' '}
-					<a href="mailto:support@Conoscense.io">support@Conoscense.io</a> to avoid
+					<a href="mailto:support@signoz.io">support@signoz.io</a> to avoid
 					termination of license as per our{' '}
 					<a
-						href="https://Conoscense.io/terms-of-service"
+						href="https://signoz.io/terms-of-service"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -578,11 +578,11 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 
 			{activeLicense?.state === LicenseState.EVALUATION_EXPIRED && (
 				<>
-					Your Conoscense trial has ended. Please contact support at{' '}
-					<a href="mailto:support@Conoscense.io">support@Conoscense.io</a> for next steps to
+					Your SigNoz trial has ended. Please contact support at{' '}
+					<a href="mailto:support@signoz.io">support@signoz.io</a> for next steps to
 					avoid termination of license as per our{' '}
 					<a
-						href="https://Conoscense.io/terms-of-service"
+						href="https://signoz.io/terms-of-service"
 						target="_blank"
 						rel="noopener noreferrer"
 					>
@@ -610,7 +610,7 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 							<a className="upgrade-link" onClick={handleUpgrade}>
 								upgrade
 							</a>
-							to continue using Conoscense features.
+							to continue using SigNoz features.
 						</span>
 					) : (
 						'Please contact your administrator for upgrading to a paid plan.'
@@ -636,7 +636,7 @@ function AppLayout(props: AppLayoutProps): JSX.Element {
 							<a className="upgrade-link" onClick={handleFailedPayment}>
 								pay the bill
 							</a>
-							to continue using Conoscense features.
+							to continue using SigNoz features.
 						</span>
 					) : (
 						' Please contact your administrator to pay the bill.'

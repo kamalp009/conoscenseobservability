@@ -15,7 +15,7 @@ import {
 import { THEME_MODE } from './constant';
 
 export const ThemeContext = createContext({
-	theme: THEME_MODE.LIGHT,
+	theme: THEME_MODE.DARK,
 	toggleTheme: () => {},
 });
 

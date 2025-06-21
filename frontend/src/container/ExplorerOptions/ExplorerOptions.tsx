@@ -633,13 +633,13 @@ function ExplorerOptions({
 
 	const infoIconLink = useMemo(() => {
 		if (isLogsExplorer) {
-			return 'https://Conoscense.io/docs/product-features/logs-explorer/?utm_source=product&utm_medium=logs-explorer-toolbar';
+			return 'https://signoz.io/docs/product-features/logs-explorer/?utm_source=product&utm_medium=logs-explorer-toolbar';
 		}
 		// TODO: Add metrics explorer info icon link
 		if (isMetricsExplorer) {
 			return '';
 		}
-		return 'https://Conoscense.io/docs/product-features/trace-explorer/?utm_source=product&utm_medium=trace-explorer-toolbar';
+		return 'https://signoz.io/docs/product-features/trace-explorer/?utm_source=product&utm_medium=trace-explorer-toolbar';
 	}, [isLogsExplorer, isMetricsExplorer]);
 
 	const getQueryName = (query: Query): string => {

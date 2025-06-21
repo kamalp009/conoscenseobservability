@@ -110,7 +110,7 @@ function SideNav(): JSX.Element {
 
 	const onClickSignozCloud = (): void => {
 		window.open(
-			'https://conoscense.io/oss-to-cloud/?utm_source=product_navbar&utm_medium=frontend&utm_campaign=oss_users',
+			'https://signoz.io/oss-to-cloud/?utm_source=product_navbar&utm_medium=frontend&utm_campaign=oss_users',
 			'_blank',
 		);
 	};
@@ -373,10 +373,10 @@ function SideNav(): JSX.Element {
 						>
 							<img src="/Logos/signoz-brand-logo.svg" alt="SigNoz" />
 
-							<span className="brand-logo-name nav-item-label"> conoscense </span>
+							<span className="brand-logo-name nav-item-label"> SigNoz </span>
 						</div>
 
-						{/* {licenseTag && (
+						{licenseTag && (
 							<Tooltip
 								title={
 									// eslint-disable-next-line no-nested-ternary
@@ -397,7 +397,7 @@ function SideNav(): JSX.Element {
 									{licenseTag}
 								</div>
 							</Tooltip>
-						)} */}
+						)}
 					</div>
 				</div>
 
@@ -448,7 +448,7 @@ function SideNav(): JSX.Element {
 							onClick={onClickShortcuts}
 						/>
 
-						{/* {!isLicenseActive && (
+						{!isLicenseActive && (
 							<NavItem
 								key="trySignozCloud"
 								item={trySignozCloudMenuItem}
@@ -456,9 +456,9 @@ function SideNav(): JSX.Element {
 								isDisabled={isWorkspaceBlocked}
 								onClick={onClickSignozCloud}
 							/>
-						)} */}
+						)}
 
-						{/* {userManagementMenuItems.map(
+						{userManagementMenuItems.map(
 							(item, index): JSX.Element => (
 								<NavItem
 									key={item?.key || index}
@@ -474,7 +474,7 @@ function SideNav(): JSX.Element {
 									}}
 								/>
 							),
-						)} */}
+						)}
 
 						{inviteMembers && (
 							<NavItem

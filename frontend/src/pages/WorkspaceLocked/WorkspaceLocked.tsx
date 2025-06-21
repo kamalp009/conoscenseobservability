@@ -125,7 +125,7 @@ export default function WorkspaceBlocked(): JSX.Element {
 			description: (
 				<Typography>
 					{t('extendTrialMsgPart1')}{' '}
-					<a href="mailto:cloud-support@Conoscense.io">cloud-support@Conoscense.io</a>{' '}
+					<a href="mailto:cloud-support@signoz.io">cloud-support@signoz.io</a>{' '}
 					{t('extendTrialMsgPart2')}
 				</Typography>
 			),
@@ -307,7 +307,7 @@ export default function WorkspaceBlocked(): JSX.Element {
 								type="default"
 								shape="round"
 								size="middle"
-								href="mailto:cloud-support@Conoscense.io"
+								href="mailto:cloud-support@signoz.io"
 								role="button"
 								onClick={handleContactUsClick}
 							>

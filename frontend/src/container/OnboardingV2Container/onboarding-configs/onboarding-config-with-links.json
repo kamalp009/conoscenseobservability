@@ -6,21 +6,21 @@
 		"module": "apm",
 		"relatedSearchKeywords": ["send data", "demo", "quickstart"],
 		"imgUrl": "/Logos/quickstart.svg",
-		"link": "https://Conoscense.io/docs/cloud/quickstart/"
+		"link": "https://signoz.io/docs/cloud/quickstart/"
 	},
 	{
 		"dataSource": "migrate-from-datadog",
 		"label": "From Datadog",
-		"tags": ["migrate to Conoscense"],
+		"tags": ["migrate to SigNoz"],
 		"module": "home",
 		"relatedSearchKeywords": ["datadog", "opentelemetry"],
 		"imgUrl": "/Logos/datadog.svg",
-		"link": "https://Conoscense.io/docs/migration/migrate-from-datadog/"
+		"link": "https://signoz.io/docs/migration/migrate-from-datadog/"
 	},
 	{
 		"dataSource": "migrate-from-lgtm",
 		"label": "From Grafana",
-		"tags": ["migrate to Conoscense"],
+		"tags": ["migrate to SigNoz"],
 		"module": "home",
 		"relatedSearchKeywords": [
 			"grafana",
@@ -31,7 +31,7 @@
 			"opentelemetry"
 		],
 		"imgUrl": "/Logos/grafana.svg",
-		"link": "https://Conoscense.io/docs/migration/migrate-from-grafana/"
+		"link": "https://signoz.io/docs/migration/migrate-from-grafana/"
 	},
 	{
 		"dataSource": "java",
@@ -79,7 +79,7 @@
 					"key": "springboot",
 					"label": "Spring Boot",
 					"imgUrl": "/Logos/springboot.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-springboot/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-springboot/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -89,19 +89,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-springboot/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-springboot/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-springboot/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-springboot/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-springboot/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-springboot/"
 							}
 						]
 					}
@@ -110,7 +110,7 @@
 					"key": "tomcat",
 					"label": "Tomcat",
 					"imgUrl": "/Logos/tomcat.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-tomcat/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-tomcat/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -120,19 +120,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-tomcat/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-tomcat/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-tomcat/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-tomcat/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-tomcat/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-tomcat/"
 							}
 						]
 					}
@@ -141,7 +141,7 @@
 					"key": "jboss",
 					"label": "JBoss",
 					"imgUrl": "/Logos/jboss.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-jboss/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-jboss/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -151,19 +151,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-jboss/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-jboss/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-jboss/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-jboss/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-jboss/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-jboss/"
 							}
 						]
 					}
@@ -172,7 +172,7 @@
 					"key": "opentelemetry-quarkus",
 					"label": "Quarkus",
 					"imgUrl": "/Logos/quarkus.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-quarkus/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-quarkus/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -182,19 +182,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-quarkus/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-quarkus/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-quarkus/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-quarkus/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-quarkus/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-quarkus/"
 							}
 						]
 					}
@@ -203,7 +203,7 @@
 					"key": "Others",
 					"label": "Others",
 					"imgUrl": "/Logos/java-others.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-java/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-java/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -213,13 +213,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-java/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-java/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-java/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-java/"
 							}
 						]
 					}
@@ -269,7 +269,7 @@
 					"key": "flask",
 					"label": "Flask",
 					"imgUrl": "/Logos/flask.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-flask/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-flask/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -279,13 +279,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-flask/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-flask/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-flask/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-flask/"
 							}
 						]
 					}
@@ -294,7 +294,7 @@
 					"key": "django",
 					"label": "Django",
 					"imgUrl": "/Logos/django.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-django/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-django/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -304,13 +304,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-django/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-django/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-django/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-django/"
 							}
 						]
 					}
@@ -319,7 +319,7 @@
 					"key": "fastapi",
 					"label": "FastAPI",
 					"imgUrl": "/Logos/fastapi.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-fastapi/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-fastapi/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -329,13 +329,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-fastapi/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-fastapi/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-fastapi/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-fastapi/"
 							}
 						]
 					}
@@ -344,7 +344,7 @@
 					"key": "falcon",
 					"label": "Falcon",
 					"imgUrl": "/Logos/falcon.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-falcon/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-falcon/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -354,13 +354,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-falcon/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-falcon/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-falcon/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-falcon/"
 							}
 						]
 					}
@@ -369,7 +369,7 @@
 					"key": "others",
 					"label": "Others",
 					"imgUrl": "/Logos/python-others.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-python/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-python/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -379,13 +379,13 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-python/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-python/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-python/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-python/"
 							}
 						]
 					}
@@ -423,7 +423,7 @@
 					"key": "nodejs",
 					"label": "NodeJs",
 					"imgUrl": "/Logos/nodejs.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-javascript/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-javascript/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -433,19 +433,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-javascript/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-javascript/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-javascript/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-javascript/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-javascript/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-javascript/"
 							}
 						]
 					}
@@ -454,7 +454,7 @@
 					"key": "express",
 					"label": "Express",
 					"imgUrl": "/Logos/express.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-express/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-express/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -464,19 +464,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-express/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-express/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-express/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-express/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-express/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-express/"
 							}
 						]
 					}
@@ -485,7 +485,7 @@
 					"key": "nestjs",
 					"label": "NestJS",
 					"imgUrl": "/Logos/nestjs.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nestjs/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-nestjs/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -495,19 +495,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nestjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nestjs/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nestjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nestjs/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nestjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nestjs/"
 							}
 						]
 					}
@@ -516,7 +516,7 @@
 					"key": "angular",
 					"label": "Angular",
 					"imgUrl": "/Logos/angular.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-angular/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-angular/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -526,19 +526,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-angular/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-angular/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-angular/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-angular/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-angular/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-angular/"
 							}
 						]
 					}
@@ -547,7 +547,7 @@
 					"key": "nextjs",
 					"label": "NextJS",
 					"imgUrl": "/Logos/nextjs.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nextjs/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-nextjs/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -557,19 +557,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nextjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nextjs/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nextjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nextjs/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nextjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nextjs/"
 							}
 						]
 					}
@@ -578,7 +578,7 @@
 					"key": "reactjs",
 					"label": "ReactJS",
 					"imgUrl": "/Logos/reactjs.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-reactjs/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-reactjs/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -588,19 +588,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-reactjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-reactjs/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-reactjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-reactjs/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-reactjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-reactjs/"
 							}
 						]
 					}
@@ -609,7 +609,7 @@
 					"key": "nuxtjs",
 					"label": "NuxtJS",
 					"imgUrl": "/Logos/nuxtjs.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nuxtjs/",
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-nuxtjs/",
 					"question": {
 						"desc": "What is your Environment?",
 						"type": "select",
@@ -619,19 +619,19 @@
 								"key": "vm",
 								"label": "VM",
 								"imgUrl": "/Logos/vm.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nuxtjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nuxtjs/"
 							},
 							{
 								"key": "k8s",
 								"label": "Kubernetes",
 								"imgUrl": "/Logos/kubernetes.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nuxtjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nuxtjs/"
 							},
 							{
 								"key": "windows",
 								"label": "Windows",
 								"imgUrl": "/Logos/windows.svg",
-								"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nuxtjs/"
+								"link": "https://signoz.io/docs/instrumentation/opentelemetry-nuxtjs/"
 							}
 						]
 					}
@@ -676,7 +676,7 @@
 			"go on windows"
 		],
 		"id": "golang",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-golang/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-golang/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -686,19 +686,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-golang/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-golang/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-golang/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-golang/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-golang/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-golang/"
 				}
 			]
 		}
@@ -744,7 +744,7 @@
 			"slim php"
 		],
 		"id": "php",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-php/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-php/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -754,19 +754,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-php/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-php/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-php/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-php/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-php/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-php/"
 				}
 			]
 		}
@@ -817,7 +817,7 @@
 			"dotnet 8 telemetry"
 		],
 		"id": "dotnet",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-dotnet/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-dotnet/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -827,19 +827,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-dotnet/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-dotnet/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-dotnet/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-dotnet/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-dotnet/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-dotnet/"
 				}
 			]
 		}
@@ -882,7 +882,7 @@
 			"rails http tracing"
 		],
 		"id": "ruby-on-rails",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-ruby-on-rails/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-ruby-on-rails/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -892,19 +892,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-ruby-on-rails/"
 				}
 			]
 		}
@@ -941,7 +941,7 @@
 			"elixir open telemetry integration"
 		],
 		"id": "elixir",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-elixir/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-elixir/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -951,19 +951,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-elixir/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-elixir/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-elixir/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-elixir/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-elixir/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-elixir/"
 				}
 			]
 		}
@@ -994,7 +994,7 @@
 			"rust docker monitoring"
 		],
 		"id": "rust",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-rust/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-rust/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -1004,19 +1004,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-rust/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-rust/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-rust/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-rust/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-rust/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-rust/"
 				}
 			]
 		}
@@ -1061,7 +1061,7 @@
 			"ios telemetry sdk"
 		],
 		"id": "swift",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-swift/",
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-swift/",
 		"question": {
 			"desc": "What is your Environment?",
 			"type": "select",
@@ -1071,19 +1071,19 @@
 					"key": "vm",
 					"label": "VM",
 					"imgUrl": "/Logos/vm.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-swift/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-swift/"
 				},
 				{
 					"key": "k8s",
 					"label": "Kubernetes",
 					"imgUrl": "/Logos/kubernetes.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-swift/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-swift/"
 				},
 				{
 					"key": "windows",
 					"label": "Windows",
 					"imgUrl": "/Logos/windows.svg",
-					"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-swift/"
+					"link": "https://signoz.io/docs/instrumentation/opentelemetry-swift/"
 				}
 			]
 		}
@@ -1128,7 +1128,7 @@
 			"cpp kubernetes instrumentation"
 		],
 		"id": "opentelemetry-cpp",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-cpp/"
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-cpp/"
 	},
 	{
 		"dataSource": "nginx-tracing",
@@ -1138,7 +1138,7 @@
 		"module": "apm",
 		"relatedSearchKeywords": ["tracing", "nginx server", "nginx proxy", "nginx"],
 		"id": "nginx-tracing",
-		"link": "https://Conoscense.io/docs/instrumentation/opentelemetry-nginx/"
+		"link": "https://signoz.io/docs/instrumentation/opentelemetry-nginx/"
 	},
 	{
 		"dataSource": "kubernetes-pod-logs",
@@ -1159,7 +1159,7 @@
 			"kubernetes logging with otel"
 		],
 		"id": "kubernetes-pod-logs",
-		"link": "https://Conoscense.io/docs/userguide/collect_kubernetes_pod_logs/"
+		"link": "https://signoz.io/docs/userguide/collect_kubernetes_pod_logs/"
 	},
 	{
 		"dataSource": "docker-container-logs",
@@ -1177,10 +1177,10 @@
 			"docker log aggregation",
 			"docker log collection setup",
 			"docker logs observability",
-			"docker logging to Conoscense"
+			"docker logging to signoz"
 		],
 		"id": "docker-container-logs",
-		"link": "https://Conoscense.io/docs/userguide/collect_docker_logs/"
+		"link": "https://signoz.io/docs/userguide/collect_docker_logs/"
 	},
 	{
 		"dataSource": "vercel-logs",
@@ -1198,10 +1198,10 @@
 			"vercel functions logs",
 			"vercel logging setup",
 			"vercel to otel",
-			"vercel logs to Conoscense"
+			"vercel logs to signoz"
 		],
 		"id": "vercel-logs",
-		"link": "https://Conoscense.io/docs/userguide/vercel_logs_to_Conoscense/"
+		"link": "https://signoz.io/docs/userguide/vercel_logs_to_signoz/"
 	},
 	{
 		"dataSource": "heroku-logs",
@@ -1219,10 +1219,10 @@
 			"heroku log shipper",
 			"heroku to otel",
 			"heroku logging setup",
-			"heroku logs to Conoscense"
+			"heroku logs to signoz"
 		],
 		"id": "heroku-logs",
-		"link": "https://Conoscense.io/docs/userguide/heroku_logs_to_Conoscense/"
+		"link": "https://signoz.io/docs/userguide/heroku_logs_to_signoz/"
 	},
 	{
 		"dataSource": "http-logs",
@@ -1239,11 +1239,11 @@
 			"http json logs",
 			"opentelemetry http logs",
 			"otel http log export",
-			"http logs to Conoscense",
+			"http logs to signoz",
 			"collect logs over http"
 		],
 		"id": "http-logs",
-		"link": "https://Conoscense.io/docs/userguide/send-logs-http/"
+		"link": "https://signoz.io/docs/userguide/send-logs-http/"
 	},
 	{
 		"dataSource": "syslogs",
@@ -1261,10 +1261,10 @@
 			"rsyslog to otel",
 			"syslog forwarding",
 			"syslog exporter",
-			"send syslogs to Conoscense"
+			"send syslogs to signoz"
 		],
 		"id": "syslogs",
-		"link": "https://Conoscense.io/docs/userguide/collecting_syslogs/"
+		"link": "https://signoz.io/docs/userguide/collecting_syslogs/"
 	},
 	{
 		"dataSource": "fluentd",
@@ -1282,10 +1282,10 @@
 			"fluentd docker logs",
 			"fluentd to otel",
 			"fluentd observability",
-			"fluentd to Conoscense"
+			"fluentd to signoz"
 		],
 		"id": "fluentd",
-		"link": "https://Conoscense.io/docs/userguide/fluentd_to_Conoscense/"
+		"link": "https://signoz.io/docs/userguide/fluentd_to_signoz/"
 	},
 	{
 		"dataSource": "fluentbit",
@@ -1303,10 +1303,10 @@
 			"fluentbit kubernetes logs",
 			"fluentbit observability",
 			"fluentbit log pipeline",
-			"fluentbit to Conoscense"
+			"fluentbit to signoz"
 		],
 		"id": "fluentbit",
-		"link": "https://Conoscense.io/docs/userguide/fluentbit_to_Conoscense/"
+		"link": "https://signoz.io/docs/userguide/fluentbit_to_signoz/"
 	},
 	{
 		"dataSource": "logstash",
@@ -1324,10 +1324,10 @@
 			"logstash log shipper",
 			"logstash observability",
 			"logstash pipeline monitoring",
-			"logstash to Conoscense"
+			"logstash to signoz"
 		],
 		"id": "logstash",
-		"link": "https://Conoscense.io/docs/userguide/logstash_to_Conoscense/"
+		"link": "https://signoz.io/docs/userguide/logstash_to_signoz/"
 	},
 	{
 		"dataSource": "tomcat-logs",
@@ -1345,10 +1345,10 @@
 			"collect tomcat logs",
 			"tomcat observability",
 			"java gc logs tomcat",
-			"tomcat logs to Conoscense"
+			"tomcat logs to signoz"
 		],
 		"id": "tomcat-logs",
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/collect-tomcat-access-and-garbage-collector-logs/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/collect-tomcat-access-and-garbage-collector-logs/"
 	},
 	{
 		"dataSource": "vector-logs",
@@ -1366,10 +1366,10 @@
 			"vector observability",
 			"vector telemetry pipeline",
 			"vector structured logging",
-			"vector to Conoscense"
+			"vector to signoz"
 		],
 		"id": "vector-logs",
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/vector-logs-to-Conoscense/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/vector-logs-to-signoz/"
 	},
 	{
 		"dataSource": "windows-events-logs",
@@ -1387,9 +1387,9 @@
 			"event viewer logs collection",
 			"windows observability",
 			"windows logging setup",
-			"windows logs to Conoscense"
+			"windows logs to signoz"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/windows-events-log/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/windows-events-log/"
 	},
 	{
 		"dataSource": "cloudwatch-logs",
@@ -1404,12 +1404,12 @@
 			"cloudwatch logs opentelemetry",
 			"cloudwatch to otel",
 			"cloudwatch logs integration",
-			"send logs to Conoscense",
+			"send logs to signoz",
 			"aws logs observability",
 			"cloudwatch exporter",
 			"cloudwatch log ingestion"
 		],
-		"link": "https://Conoscense.io/docs/userguide/send-cloudwatch-logs-to-Conoscense/"
+		"link": "https://signoz.io/docs/userguide/send-cloudwatch-logs-to-signoz/"
 	},
 	{
 		"dataSource": "from-log-file",
@@ -1427,9 +1427,9 @@
 			"otel file logs",
 			"filebeat alternative",
 			"log tailing with otel",
-			"log file to Conoscense"
+			"log file to signoz"
 		],
-		"link": "https://Conoscense.io/docs/userguide/collect_logs_from_file/"
+		"link": "https://signoz.io/docs/userguide/collect_logs_from_file/"
 	},
 	{
 		"dataSource": "aws-lambda-nodejs-logs",
@@ -1447,9 +1447,9 @@
 			"lambda cloudwatch logs",
 			"lambda structured logging",
 			"lambda observability",
-			"lambda logs to Conoscense"
+			"lambda logs to signoz"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/aws-lambda-nodejs/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/aws-lambda-nodejs/"
 	},
 	{
 		"dataSource": "python-logs-auto-instrumentation",
@@ -1467,9 +1467,9 @@
 			"python observability",
 			"auto collect python logs",
 			"python structured logging",
-			"python logs to Conoscense"
+			"python logs to signoz"
 		],
-		"link": "https://Conoscense.io/docs/userguide/python-logs-auto-instrumentation/"
+		"link": "https://signoz.io/docs/userguide/python-logs-auto-instrumentation/"
 	},
 	{
 		"dataSource": "otel-java-sdk",
@@ -1487,9 +1487,9 @@
 			"otel logs java",
 			"structured logging java",
 			"java application logs",
-			"java logs to Conoscense"
+			"java logs to signoz"
 		],
-		"link": "https://Conoscense.io/docs/userguide/collecting_application_logs_otel_sdk_java/"
+		"link": "https://signoz.io/docs/userguide/collecting_application_logs_otel_sdk_java/"
 	},
 	{
 		"dataSource": "nodejs-pino-logs",
@@ -1507,10 +1507,10 @@
 			"pino log forwarding",
 			"pino logger nodejs",
 			"pino log exporter",
-			"pino logs to Conoscense",
+			"pino logs to signoz",
 			"nodejs"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/nodejs-pino-logs/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/nodejs-pino-logs/"
 	},
 	{
 		"dataSource": "nodejs-winston-logs",
@@ -1528,10 +1528,10 @@
 			"winston nodejs observability",
 			"winston log collector",
 			"winston log transport",
-			"winston logs to Conoscense",
+			"winston logs to signoz",
 			"nodejs"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/nodejs-winston-logs/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/nodejs-winston-logs/"
 	},
 	{
 		"dataSource": "golang-zap-logs",
@@ -1549,9 +1549,9 @@
 			"golang logging zap",
 			"collect zap logs",
 			"zap log exporter",
-			"zap logs to Conoscense"
+			"zap logs to signoz"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/zap-to-Conoscense/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/zap-to-signoz/"
 	},
 	{
 		"dataSource": "golang-logrus-logs",
@@ -1566,12 +1566,12 @@
 			"logrus structured logging",
 			"opentelemetry logrus integration",
 			"logrus observability golang",
-			"logrus to Conoscense",
+			"logrus to signoz",
 			"logrus log forwarding",
 			"logrus json logs",
 			"golang logrus collector"
 		],
-		"link": "https://Conoscense.io/docs/logs-management/send-logs/logrus-to-Conoscense/"
+		"link": "https://signoz.io/docs/logs-management/send-logs/logrus-to-signoz/"
 	},
 	{
 		"dataSource": "hostmetrics",
@@ -1588,10 +1588,10 @@
 			"otel hostmetrics receiver",
 			"infrastructure monitoring",
 			"collect node metrics",
-			"host metrics to Conoscense"
+			"host metrics to signoz"
 		],
 		"imgUrl": "/Logos/hostmetrics.svg",
-		"link": "https://Conoscense.io/docs/userguide/hostmetrics/"
+		"link": "https://signoz.io/docs/userguide/hostmetrics/"
 	},
 	{
 		"dataSource": "k8s-metrics",
@@ -1608,10 +1608,10 @@
 			"kubernetes resource usage",
 			"otel k8s metrics receiver",
 			"k8s performance metrics",
-			"kubernetes metrics to Conoscense"
+			"kubernetes metrics to signoz"
 		],
 		"imgUrl": "/Logos/kubernetes.svg",
-		"link": "https://Conoscense.io/docs/userguide/k8s-metrics/"
+		"link": "https://signoz.io/docs/userguide/k8s-metrics/"
 	},
 	{
 		"dataSource": "docker-container-metrics",
@@ -1628,10 +1628,10 @@
 			"collect docker stats",
 			"docker container telemetry",
 			"docker metrics opentelemetry",
-			"docker metrics to Conoscense"
+			"docker metrics to signoz"
 		],
 		"imgUrl": "/Logos/docker.svg",
-		"link": "https://Conoscense.io/docs/userguide/k8s-metrics/"
+		"link": "https://signoz.io/docs/userguide/k8s-metrics/"
 	},
 	{
 		"dataSource": "ec2-application-logs",
@@ -1646,12 +1646,12 @@
 			"opentelemetry ec2 logs",
 			"ec2 observability",
 			"ec2 log ingestion",
-			"ec2 logs to Conoscense",
+			"ec2 logs to signoz",
 			"aws logs otel",
 			"ec2 structured logging"
 		],
 		"imgUrl": "/Logos/ec2.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/ec2-logs/"
+		"link": "https://signoz.io/docs/aws-monitoring/ec2-logs/"
 	},
 	{
 		"dataSource": "ec2-infrastructure-metrics",
@@ -1667,11 +1667,11 @@
 			"opentelemetry ec2 metrics",
 			"ec2 telemetry",
 			"aws vm monitoring",
-			"ec2 metrics to Conoscense",
+			"ec2 metrics to signoz",
 			"aws infrastructure observability"
 		],
 		"imgUrl": "/Logos/ec2.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/ec2-infra-metrics/"
+		"link": "https://signoz.io/docs/aws-monitoring/ec2-infra-metrics/"
 	},
 	{
 		"dataSource": "ecs-ec2",
@@ -1687,11 +1687,11 @@
 			"ecs instance metrics",
 			"ecs telemetry ec2",
 			"collect ecs ec2 logs",
-			"ecs ec2 to Conoscense",
+			"ecs ec2 to signoz",
 			"aws container service ec2"
 		],
 		"imgUrl": "/Logos/ecs.svg",
-		"link": "https://Conoscense.io/docs/userguide/collecting-ecs-logs-and-metrics/"
+		"link": "https://signoz.io/docs/userguide/collecting-ecs-logs-and-metrics/"
 	},
 	{
 		"dataSource": "ecs-external",
@@ -1707,11 +1707,11 @@
 			"ecs external tasks",
 			"ecs telemetry external",
 			"ecs external node integration",
-			"ecs external to Conoscense",
+			"ecs external to signoz",
 			"aws ecs external setup"
 		],
 		"imgUrl": "/Logos/ecs.svg",
-		"link": "https://Conoscense.io/docs/userguide/collecting-ecs-logs-and-metrics/"
+		"link": "https://signoz.io/docs/userguide/collecting-ecs-logs-and-metrics/"
 	},
 	{
 		"dataSource": "ecs-fargate",
@@ -1728,10 +1728,10 @@
 			"ecs fargate integration",
 			"fargate telemetry",
 			"aws fargate tracing",
-			"fargate to Conoscense"
+			"fargate to signoz"
 		],
 		"imgUrl": "/Logos/ecs.svg",
-		"link": "https://Conoscense.io/docs/userguide/collecting-ecs-sidecar-infra/"
+		"link": "https://signoz.io/docs/userguide/collecting-ecs-sidecar-infra/"
 	},
 	{
 		"dataSource": "eks",
@@ -1748,10 +1748,10 @@
 			"collect eks pod logs",
 			"eks logging setup",
 			"eks cloudwatch logs",
-			"eks logs to Conoscense"
+			"eks logs to signoz"
 		],
 		"imgUrl": "/Logos/eks.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/eks/"
+		"link": "https://signoz.io/docs/aws-monitoring/eks/"
 	},
 	{
 		"dataSource": "elb-logs",
@@ -1768,10 +1768,10 @@
 			"elb logs opentelemetry",
 			"otel elb logs",
 			"elb request tracing",
-			"elb logs to Conoscense"
+			"elb logs to signoz"
 		],
 		"imgUrl": "/Logos/elb.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/elb-logs/"
+		"link": "https://signoz.io/docs/aws-monitoring/elb-logs/"
 	},
 	{
 		"dataSource": "vpc-logs",
@@ -1788,10 +1788,10 @@
 			"vpc flow logs analysis",
 			"vpc flow log observability",
 			"collect vpc logs",
-			"vpc logs to Conoscense"
+			"vpc logs to signoz"
 		],
 		"imgUrl": "/Logos/vpc.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/vpc-logs/"
+		"link": "https://signoz.io/docs/aws-monitoring/vpc-logs/"
 	},
 	{
 		"dataSource": "rds-logs",
@@ -1808,10 +1808,10 @@
 			"rds postgres logs",
 			"rds mysql logs",
 			"collect rds logs",
-			"rds logs to Conoscense"
+			"rds logs to signoz"
 		],
 		"imgUrl": "/Logos/rds.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/rds-logs/",
+		"link": "https://signoz.io/docs/aws-monitoring/rds-logs/",
 		"internalRedirect": true
 	},
 	{
@@ -1828,10 +1828,10 @@
 			"serverless monitoring",
 			"lambda tracing",
 			"aws lambda insights",
-			"lambda to Conoscense"
+			"lambda to signoz"
 		],
 		"imgUrl": "/Logos/lambda.svg",
-		"link": "https://Conoscense.io/docs/aws-monitoring/lambda-logs/"
+		"link": "https://signoz.io/docs/aws-monitoring/lambda-logs/"
 	},
 	{
 		"dataSource": "vm-metrics-and-logging",
@@ -1848,10 +1848,10 @@
 			"azure virtual machine telemetry",
 			"azure infrastructure monitoring",
 			"azure vm performance",
-			"azure vm to Conoscense"
+			"azure vm to signoz"
 		],
 		"imgUrl": "/Logos/azure-vm.svg",
-		"link": "https://Conoscense.io/docs/azure-monitoring/virtual-machines/vm-metrics/"
+		"link": "https://signoz.io/docs/azure-monitoring/virtual-machines/vm-metrics/"
 	},
 	{
 		"dataSource": "app-service",
@@ -1869,7 +1869,7 @@
 			"azure web app monitoring",
 			"app service telemetry",
 			"azure app logs",
-			"app service to Conoscense"
+			"app service to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -1879,19 +1879,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/azure-vm.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/app-service/logging/"
+					"link": "https://signoz.io/docs/azure-monitoring/app-service/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/azure-vm.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/app-service/metrics/"
+					"link": "https://signoz.io/docs/azure-monitoring/app-service/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/azure-vm.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/app-service/tracing/"
+					"link": "https://signoz.io/docs/azure-monitoring/app-service/tracing/"
 				}
 			]
 		}
@@ -1911,10 +1911,10 @@
 			"azure k8s monitoring",
 			"aks telemetry",
 			"collect logs from aks",
-			"aks to Conoscense"
+			"aks to signoz"
 		],
 		"imgUrl": "/Logos/azure-app-service.svg",
-		"link": "https://Conoscense.io/docs/azure-monitoring/aks/"
+		"link": "https://signoz.io/docs/azure-monitoring/aks/"
 	},
 	{
 		"dataSource": "azure-container-apps",
@@ -1932,7 +1932,7 @@
 			"otel azure container apps",
 			"azure microservice monitoring",
 			"container apps telemetry",
-			"azure container apps to Conoscense"
+			"azure container apps to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -1942,19 +1942,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/azure-container-apps.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-container-apps/logging/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-container-apps/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/azure-container-apps.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-container-apps/metrics/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-container-apps/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/azure-container-apps.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-container-apps/tracing/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-container-apps/tracing/"
 				}
 			]
 		}
@@ -1975,7 +1975,7 @@
 			"opentelemetry azure functions",
 			"otel azure functions",
 			"collect logs azure functions",
-			"azure functions to Conoscense"
+			"azure functions to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -1985,19 +1985,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/azure-functions.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-fns/logging/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-fns/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/azure-functions.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-fns/metrics/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-fns/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/azure-functions.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-fns/tracing/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-fns/tracing/"
 				}
 			]
 		}
@@ -2017,10 +2017,10 @@
 			"collect sql metrics azure",
 			"azure sql insights",
 			"azure db monitoring",
-			"sql metrics to Conoscense"
+			"sql metrics to signoz"
 		],
 		"imgUrl": "/Logos/azure-sql-database-metrics.svg",
-		"link": "https://Conoscense.io/docs/azure-monitoring/db-metrics/"
+		"link": "https://signoz.io/docs/azure-monitoring/db-metrics/"
 	},
 	{
 		"dataSource": "azure-blob-storage",
@@ -2038,7 +2038,7 @@
 			"monitor azure storage",
 			"blob storage telemetry",
 			"azure blob access logs",
-			"blob storage to Conoscense"
+			"blob storage to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2048,19 +2048,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/azure-blob-storage.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-blob-storage/logging/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-blob-storage/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/azure-blob-storage.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-blob-storage/metrics/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-blob-storage/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/azure-blob-storage.svg",
-					"link": "https://Conoscense.io/docs/azure-monitoring/az-blob-storage/tracing/"
+					"link": "https://signoz.io/docs/azure-monitoring/az-blob-storage/tracing/"
 				}
 			]
 		}
@@ -2081,7 +2081,7 @@
 			"opentelemetry gcp functions",
 			"cloud functions metrics",
 			"cloud functions log export",
-			"cloud functions to Conoscense"
+			"cloud functions to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2091,25 +2091,25 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-cloud-functions.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-fns/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-fns/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Cloud Function Metrics",
 					"imgUrl": "/Logos/gcp-cloud-functions.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-fns/fns-metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-fns/fns-metrics/"
 				},
 				{
 					"key": "metrics",
 					"label": "Custom Metrics",
 					"imgUrl": "/Logos/gcp-cloud-functions.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-fns/custom-metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-fns/custom-metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/gcp-cloud-functions.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-fns/tracing/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-fns/tracing/"
 				}
 			]
 		}
@@ -2130,7 +2130,7 @@
 			"app engine telemetry",
 			"collect app engine logs",
 			"app engine opentelemetry integration",
-			"app engine to Conoscense"
+			"app engine to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2140,19 +2140,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-app-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/app-engine/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/app-engine/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-app-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/app-engine/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/app-engine/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/gcp-app-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/app-engine/tracing/"
+					"link": "https://signoz.io/docs/gcp-monitoring/app-engine/tracing/"
 				}
 			]
 		}
@@ -2173,7 +2173,7 @@
 			"compute engine tracing",
 			"compute engine metrics",
 			"compute engine logging setup",
-			"compute engine to Conoscense"
+			"compute engine to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2183,19 +2183,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-compute-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/compute-engine/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/compute-engine/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-compute-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/compute-engine/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/compute-engine/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/gcp-compute-engine.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/compute-engine/tracing/"
+					"link": "https://signoz.io/docs/gcp-monitoring/compute-engine/tracing/"
 				}
 			]
 		}
@@ -2215,7 +2215,7 @@
 			"cloud storage metrics gcp",
 			"gcs bucket monitoring",
 			"gcs access logs",
-			"gcs to Conoscense",
+			"gcs to signoz",
 			"gcs performance metrics"
 		],
 		"question": {
@@ -2226,13 +2226,13 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-cloud-storage.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcs/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcs/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-cloud-storage.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcs/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcs/metrics/"
 				}
 			]
 		}
@@ -2253,7 +2253,7 @@
 			"collect sql logs gcp",
 			"cloud sql monitoring setup",
 			"gcp database logs",
-			"cloud sql to Conoscense"
+			"cloud sql to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2263,13 +2263,13 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-cloud-sql.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-sql/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-sql/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-cloud-sql.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-sql/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-sql/metrics/"
 				}
 			]
 		}
@@ -2290,7 +2290,7 @@
 			"clb tracing gcp",
 			"clb logs collection",
 			"load balancer monitoring gcp",
-			"clb to Conoscense"
+			"clb to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2300,13 +2300,13 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-cloud-load-balancer.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-clb/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-clb/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-cloud-load-balancer.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gcp-clb/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gcp-clb/metrics/"
 				}
 			]
 		}
@@ -2326,7 +2326,7 @@
 			"gcp network telemetry",
 			"gcp vpc metrics",
 			"collect vpc flow logs",
-			"vpc to Conoscense",
+			"vpc to signoz",
 			"gcp vpc tracing"
 		],
 		"question": {
@@ -2337,13 +2337,13 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-vpc.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/vpc/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/vpc/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-vpc.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/vpc/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/vpc/metrics/"
 				}
 			]
 		}
@@ -2364,7 +2364,7 @@
 			"otel gke integration",
 			"gke log shipping",
 			"gke workload monitoring",
-			"gke to Conoscense"
+			"gke to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2374,19 +2374,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-gke.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gke/gke-logging-and-metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gke/gke-logging-and-metrics/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-gke.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gke/gke-logging-and-metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gke/gke-logging-and-metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/gcp-gke.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/gke/gke-tracing/"
+					"link": "https://signoz.io/docs/gcp-monitoring/gke/gke-tracing/"
 				}
 			]
 		}
@@ -2407,7 +2407,7 @@
 			"cloud run log monitoring",
 			"cloud run metrics",
 			"serverless gcp logs",
-			"cloud run to Conoscense"
+			"cloud run to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2417,19 +2417,19 @@
 					"key": "logging",
 					"label": "Logs",
 					"imgUrl": "/Logos/gcp-cloud-run.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-run/logging/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-run/logging/"
 				},
 				{
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-cloud-run.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-run/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-run/metrics/"
 				},
 				{
 					"key": "tracing",
 					"label": "Traces",
 					"imgUrl": "/Logos/gcp-cloud-run.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-run/tracing/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-run/tracing/"
 				}
 			]
 		}
@@ -2450,7 +2450,7 @@
 			"gcp observability",
 			"cloud monitoring telemetry",
 			"gcp metrics dashboard",
-			"cloud monitoring to Conoscense"
+			"cloud monitoring to signoz"
 		],
 		"question": {
 			"desc": "What telemetry data do you want to visualise ?",
@@ -2460,7 +2460,7 @@
 					"key": "metrics",
 					"label": "Metrics",
 					"imgUrl": "/Logos/gcp-cloud-monitoring.svg",
-					"link": "https://Conoscense.io/docs/gcp-monitoring/cloud-monitoring/metrics/"
+					"link": "https://signoz.io/docs/gcp-monitoring/cloud-monitoring/metrics/"
 				}
 			]
 		}
@@ -2481,9 +2481,9 @@
 			"llm inference monitoring",
 			"otel llm integration",
 			"llm performance tracking",
-			"llm monitoring with Conoscense"
+			"llm monitoring with signoz"
 		],
-		"link": "https://Conoscense.io/docs/community/llm-monitoring/"
+		"link": "https://signoz.io/docs/community/llm-monitoring/"
 	},
 	{
 		"dataSource": "android-java",
@@ -2501,9 +2501,9 @@
 			"android observability",
 			"monitor android apps",
 			"android java instrumentation",
-			"android java to Conoscense"
+			"android java to signoz"
 		],
-		"link": "https://Conoscense.io/docs/instrumentation/mobile-instrumentation/opentelemetry-java/"
+		"link": "https://signoz.io/docs/instrumentation/mobile-instrumentation/opentelemetry-java/"
 	},
 	{
 		"dataSource": "android-kotlin",
@@ -2521,9 +2521,9 @@
 			"android observability kotlin",
 			"monitor kotlin apps",
 			"android telemetry sdk",
-			"android kotlin to Conoscense"
+			"android kotlin to signoz"
 		],
-		"link": "https://Conoscense.io/docs/instrumentation/mobile-instrumentation/opentelemetry-kotlin/"
+		"link": "https://signoz.io/docs/instrumentation/mobile-instrumentation/opentelemetry-kotlin/"
 	},
 	{
 		"dataSource": "flutter",
@@ -2541,9 +2541,9 @@
 			"otel flutter sdk",
 			"flutter mobile monitoring",
 			"flutter performance metrics",
-			"flutter to Conoscense"
+			"flutter to signoz"
 		],
-		"link": "https://Conoscense.io/docs/instrumentation/mobile-instrumentation/opentelemetry-flutter/"
+		"link": "https://signoz.io/docs/instrumentation/mobile-instrumentation/opentelemetry-flutter/"
 	},
 	{
 		"dataSource": "swift",
@@ -2561,9 +2561,9 @@
 			"monitor ios apps",
 			"swift app tracing",
 			"ios logs and metrics",
-			"swift to Conoscense"
+			"swift to signoz"
 		],
-		"link": "https://Conoscense.io/docs/instrumentation/mobile-instrumentation/opentelemetry-swiftui/"
+		"link": "https://signoz.io/docs/instrumentation/mobile-instrumentation/opentelemetry-swiftui/"
 	},
 	{
 		"dataSource": "web-vitals",
@@ -2580,10 +2580,10 @@
 			"lcp fcp fid cls",
 			"frontend observability",
 			"browser performance tracing",
-			"web vitals to Conoscense",
+			"web vitals to signoz",
 			"measure page load performance"
 		],
-		"link": "https://Conoscense.io/docs/frontend-monitoring/opentelemetry-web-vitals/"
+		"link": "https://signoz.io/docs/frontend-monitoring/opentelemetry-web-vitals/"
 	},
 	{
 		"dataSource": "document-load",
@@ -2601,9 +2601,9 @@
 			"otel document load time",
 			"frontend telemetry",
 			"document load trace",
-			"document load to Conoscense"
+			"document load to signoz"
 		],
-		"link": "https://Conoscense.io/docs/frontend-monitoring/document-load/"
+		"link": "https://signoz.io/docs/frontend-monitoring/document-load/"
 	},
 	{
 		"dataSource": "self-hosted-kafka",
@@ -2618,7 +2618,7 @@
 			"kafka observability",
 			"kafka integration"
 		],
-		"link": "https://Conoscense.io/docs/messaging-queues/kafka/"
+		"link": "https://signoz.io/docs/messaging-queues/kafka/"
 	},
 	{
 		"dataSource": "amazon-msk",
@@ -2633,7 +2633,7 @@
 			"msk tracing",
 			"msk monitoring"
 		],
-		"link": "https://Conoscense.io/docs/messaging-queues/msk/"
+		"link": "https://signoz.io/docs/messaging-queues/msk/"
 	},
 	{
 		"dataSource": "confluent-kafka",
@@ -2648,7 +2648,7 @@
 			"kafka cloud",
 			"kafka monitoring"
 		],
-		"link": "https://Conoscense.io/docs/messaging-queues/confluent-kafka/"
+		"link": "https://signoz.io/docs/messaging-queues/confluent-kafka/"
 	},
 	{
 		"dataSource": "strimzi-kafka",
@@ -2663,7 +2663,7 @@
 			"kafka helm chart",
 			"monitor kafka strimzi"
 		],
-		"link": "https://Conoscense.io/docs/messaging-queues/strimzi/"
+		"link": "https://signoz.io/docs/messaging-queues/strimzi/"
 	},
 	{
 		"dataSource": "celery",
@@ -2678,7 +2678,7 @@
 			"task queue tracing",
 			"celery opentelemetry"
 		],
-		"link": "https://Conoscense.io/docs/messaging-queues/celery-setup/"
+		"link": "https://signoz.io/docs/messaging-queues/celery-setup/"
 	},
 	{
 		"dataSource": "redis",
@@ -2917,19 +2917,19 @@
 					"key": "temporal-cloud",
 					"label": "Cloud Metrics",
 					"imgUrl": "/Logos/temporal.svg",
-					"link": "https://Conoscense.io/docs/integrations/temporal-cloud-metrics/"
+					"link": "https://signoz.io/docs/integrations/temporal-cloud-metrics/"
 				},
 				{
 					"key": "temporal-golang",
 					"label": "Go",
 					"imgUrl": "/Logos/go.svg",
-					"link": "https://Conoscense.io/docs/integrations/temporal-golang-opentelemetry/"
+					"link": "https://signoz.io/docs/integrations/temporal-golang-opentelemetry/"
 				},
 				{
 					"key": "temporal-typescript",
 					"label": "TypeScript",
 					"imgUrl": "/Logos/javascript.svg",
-					"link": "https://Conoscense.io/docs/integrations/temporal-typescript-opentelemetry/"
+					"link": "https://signoz.io/docs/integrations/temporal-typescript-opentelemetry/"
 				}
 			]
 		}

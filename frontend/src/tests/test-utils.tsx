@@ -50,7 +50,7 @@ const mockStored = (role?: string): any =>
 			role, // Use the role provided
 			user: {
 				userId: '6f532456-8cc0-4514-a93b-aed665c32b47',
-				email: 'test@Conoscense.io',
+				email: 'test@signoz.io',
 				name: 'TestUser',
 				profilePictureURL: '',
 				accessJwt: '',
@@ -146,7 +146,7 @@ export function getAppContextMock(
 			accessJwt: 'some-token',
 			refreshJwt: 'some-refresh-token',
 			id: 'some-user-id',
-			email: 'does-not-matter@Conoscense.io',
+			email: 'does-not-matter@signoz.io',
 			displayName: 'John Doe',
 			createdAt: 1732544623,
 			organization: 'Nightswatch',

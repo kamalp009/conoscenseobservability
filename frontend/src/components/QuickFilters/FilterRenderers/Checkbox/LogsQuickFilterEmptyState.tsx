@@ -23,7 +23,7 @@ function LogsQuickFilterEmptyState({
 		const section = QUICK_FILTER_DOC_PATHS[attributeKey];
 
 		window.open(
-			`https://Conoscense.io/docs/logs-management/features/logs-quick-filters#${section}`,
+			`https://signoz.io/docs/logs-management/features/logs-quick-filters#${section}`,
 			'_blank',
 		);
 	};

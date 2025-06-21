@@ -57,22 +57,22 @@ function WorkspaceAccessRestricted(): JSX.Element {
 										>
 											{activeLicense.state === LicenseState.TERMINATED && (
 												<>
-													Your Conoscense license is terminated, please contact support at{' '}
-													<a href="mailto:cloud-support@Conoscense.io">
-														cloud-support@Conoscense.io
+													Your SigNoz license is terminated, please contact support at{' '}
+													<a href="mailto:cloud-support@signoz.io">
+														cloud-support@signoz.io
 													</a>{' '}
 													for a new deployment
 												</>
 											)}
 											{activeLicense.state === LicenseState.EXPIRED && (
 												<>
-													Your Conoscense license is expired, please contact support at{' '}
-													<a href="mailto:cloud-support@Conoscense.io">
-														cloud-support@Conoscense.io
+													Your SigNoz license is expired, please contact support at{' '}
+													<a href="mailto:cloud-support@signoz.io">
+														cloud-support@signoz.io
 													</a>{' '}
 													for renewal to avoid termination of license as per our{' '}
 													<a
-														href="https://Conoscense.io/terms-of-service"
+														href="https://signoz.io/terms-of-service"
 														target="_blank"
 														rel="noopener noreferrer"
 													>
@@ -83,13 +83,13 @@ function WorkspaceAccessRestricted(): JSX.Element {
 											)}
 											{activeLicense.state === LicenseState.CANCELLED && (
 												<>
-													Your Conoscense license is cancelled, please contact support at{' '}
-													<a href="mailto:cloud-support@Conoscense.io">
-														cloud-support@Conoscense.io
+													Your SigNoz license is cancelled, please contact support at{' '}
+													<a href="mailto:cloud-support@signoz.io">
+														cloud-support@signoz.io
 													</a>{' '}
 													for reactivation to avoid termination of license as per our{' '}
 													<a
-														href="https://Conoscense.io/terms-of-service"
+														href="https://signoz.io/terms-of-service"
 														target="_blank"
 														rel="noopener noreferrer"
 													>
@@ -104,7 +104,7 @@ function WorkspaceAccessRestricted(): JSX.Element {
 											type="default"
 											shape="round"
 											size="middle"
-											href="mailto:cloud-support@Conoscense.io"
+											href="mailto:cloud-support@signoz.io"
 											role="button"
 										>
 											Contact Us
