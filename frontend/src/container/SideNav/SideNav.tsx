@@ -371,12 +371,12 @@ function SideNav(): JSX.Element {
 								onClickHandler(ROUTES.HOME, event);
 							}}
 						>
-							<img src="/Logos/signoz-brand-logo.svg" alt="SigNoz" />
+							<img src="/Logos/conoscense-brand-logo.svg" alt="SigNoz" />
 
 							<span className="brand-logo-name nav-item-label"> Conoscense </span>
 						</div>
 
-						{licenseTag && (
+						{/* {licenseTag && (
 							<Tooltip
 								title={
 									// eslint-disable-next-line no-nested-ternary
@@ -397,7 +397,7 @@ function SideNav(): JSX.Element {
 									{licenseTag}
 								</div>
 							</Tooltip>
-						)}
+						)} */}
 					</div>
 				</div>
 

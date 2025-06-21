@@ -16,7 +16,7 @@ function WelcomeLeftContainer({
 		<Container>
 			<LeftContainer direction="vertical">
 				<Space align="center">
-					<Logo src="/Logos/signoz-brand-logo.svg" alt="logo" />
+					<Logo src="/Logos/conoscense-brand-logo.svg" alt="logo" />
 					<Title style={{ fontSize: '46px', margin: 0 }}>Conoscense</Title>
 				</Space>
 				<Typography>{t('monitor_signup')}</Typography>

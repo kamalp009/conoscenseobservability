@@ -331,7 +331,7 @@ export default function Home(): JSX.Element {
 	return (
 		<div className="home-container">
 			<div className="sticky-header">
-				{showBanner && (
+				{/* {showBanner && (
 					<div className="home-container-banner">
 						<div className="home-container-banner-content">
 							Big News: conoscense Community Edition now available with SSO (Google OAuth)
@@ -350,7 +350,7 @@ export default function Home(): JSX.Element {
 							<X size={16} onClick={hideBanner} />
 						</div>
 					</div>
-				)}
+				)} */}
 
 				<Header
 					leftComponent={

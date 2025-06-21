@@ -143,7 +143,7 @@ function OnboardingAddDataSource(): JSX.Element {
 	] = useState<boolean>(false);
 
 	const [docsUrl, setDocsUrl] = useState<string>(
-		'https://signoz.io/docs/instrumentation/',
+		'https://Conoscense.io/docs/instrumentation/',
 	);
 
 	const [selectedDataSource, setSelectedDataSource] = useState<Entity | null>(
@@ -676,7 +676,7 @@ function OnboardingAddDataSource(): JSX.Element {
 												Select your data source
 											</Typography.Title>
 											<Typography.Text className="question-sub-title">
-												Select from a host of services to start sending data to SigNoz
+												Select from a host of services to start sending data to Conoscense
 											</Typography.Text>
 										</div>
 									</div>
@@ -843,7 +843,7 @@ function OnboardingAddDataSource(): JSX.Element {
 																	>
 																		{option.imgUrl && (
 																			<img
-																				src={option.imgUrl || '/Logos/signoz-brand-logo-new.svg'}
+																				src={option.imgUrl || '/Logos/conoscense-brand-logo-new.svg'}
 																				alt={option.label}
 																				className="onboarding-data-source-button-img"
 																			/>
@@ -888,7 +888,7 @@ function OnboardingAddDataSource(): JSX.Element {
 																		onClick={(): void => handleSelectEnvironment(option)}
 																	>
 																		<img
-																			src={option.imgUrl || '/Logos/signoz-brand-logo-new.svg'}
+																			src={option.imgUrl || '/Logos/conoscense-brand-logo-new.svg'}
 																			alt={option.label}
 																			className="onboarding-data-source-button-img"
 																		/>
