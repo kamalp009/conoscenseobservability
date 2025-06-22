@@ -51,9 +51,9 @@ export default function NoLogs({
 					</span>
 				</Typography>
 
-				<Typography.Link className="send-logs-link" onClick={handleLinkClick}>
+				{/* <Typography.Link className="send-logs-link" onClick={handleLinkClick}>
 					Sending {dataSource} to SigNoz <ArrowUpRight size={16} />
-				</Typography.Link>
+				</Typography.Link> */}
 			</div>
 		</div>
 	);

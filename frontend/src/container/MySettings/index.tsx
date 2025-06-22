@@ -51,7 +51,7 @@ function MySettings(): JSX.Element {
 				margin: '16px 0',
 			}}
 		>
-			<div className="theme-selector">
+			{/* <div className="theme-selector">
 				<Typography.Title
 					level={5}
 					style={{
@@ -69,7 +69,7 @@ function MySettings(): JSX.Element {
 					buttonStyle="solid"
 					data-testid="theme-selector"
 				/>
-			</div>
+			</div> */}
 
 			<div className="user-info-container">
 				<UserInfo />
